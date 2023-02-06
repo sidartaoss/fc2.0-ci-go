@@ -12,7 +12,7 @@ func TestSoma(t *testing.T) {
 	b := 2
 	expected := 3
 	// act
-	actual := Soma(a, b)
+	actual := soma(a, b)
 
 	// assert
 	assert.Equal(t, expected, actual)

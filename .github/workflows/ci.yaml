@@ -35,6 +35,5 @@ jobs:
         id: docker_build
         uses: docker/build-push-action@v4
         with:
-          context: .
           push: true
           tags: sidartaoss/fc2.0-ci-go:latest
